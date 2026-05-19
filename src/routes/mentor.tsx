@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { AppShell } from "@/components/layout/AppShell";
-import { chatWithMentor } from "@/services/mockApi";
+import { chatWithMentor } from "@/services/chat";
 import { Send, Sparkles, Plus, MessagesSquare } from "lucide-react";
 
 export const Route = createFileRoute("/mentor")({
